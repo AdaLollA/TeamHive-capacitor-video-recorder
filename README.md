@@ -1,18 +1,18 @@
 # Issue #27 #
 Reference: https://github.com/TeamHive/capacitor-video-recorder/issues/27
 
-## Implementation ##
+## 1. Implementation ##
 This is the most minimal `ionic blank` implementation of the video recorder possible as shown by the official github page: https://github.com/TeamHive/capacitor-video-recorder
 
-## What does work ##
+## 2. What does work ##
 The web- and ios-implementation preview window works.
 
-## What does *not* work ##
+## 3. What does *not* work ##
 The android native implementation does not show any preview window.
 
-## How to recreate ##
+## 4. How to recreate ##
 
-### Setup the dev environment ###
+### 4.1 Setup the dev environment ###
 Clone this repository and set it up accordingly
 ```
  - npm install
@@ -22,7 +22,7 @@ Clone this repository and set it up accordingly
 ```
 *you may require additional steps - but as i said its the most basic impl*
 
-### Test the working / not working parts of the code ###
+### 4.2 Test the working / not working parts of the code ###
 Follow the steps shown in the MainActivity to switch between the native and web implementation.
 
 File to modify: 
